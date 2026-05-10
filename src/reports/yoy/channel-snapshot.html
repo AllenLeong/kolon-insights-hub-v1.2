@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>样例分析 2</title>
+<style>
+  body { margin:0; font-family: ui-sans-serif, system-ui, sans-serif; padding:20px; background:#0f172a; color:#e2e8f0; }
+  h2 { margin:0 0 16px; font-size:16px; color:#fff; }
+  .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:12px; }
+  .kpi { background:#1e293b; border-radius:10px; padding:16px; }
+  .kpi .label { font-size:11px; opacity:0.7; text-transform: uppercase; letter-spacing:0.1em; }
+  .kpi .value { font-size:24px; font-weight:700; margin-top:6px; }
+  .kpi .delta { font-size:12px; margin-top:4px; }
+  .pos { color:#4ade80; }
+  .neg { color:#f87171; }
+</style>
+</head>
+<body>
+  <h2>渠道关键指标快照</h2>
+  <div class="grid">
+    <div class="kpi"><div class="label">自营销售额</div><div class="value">¥3.2亿</div><div class="delta pos">▲ 9.8% YoY</div></div>
+    <div class="kpi"><div class="label">经销商销售额</div><div class="value">¥1.4亿</div><div class="delta neg">▼ 1.2% YoY</div></div>
+    <div class="kpi"><div class="label">线上销售额</div><div class="value">¥0.8亿</div><div class="delta pos">▲ 24.6% YoY</div></div>
+    <div class="kpi"><div class="label">自营客单价</div><div class="value">¥1,280</div><div class="delta pos">▲ 4.1%</div></div>
+    <div class="kpi"><div class="label">经销商客单价</div><div class="value">¥980</div><div class="delta pos">▲ 1.5%</div></div>
+    <div class="kpi"><div class="label">线上客单价</div><div class="value">¥620</div><div class="delta neg">▼ 3.2%</div></div>
+  </div>
+</body>
+</html>

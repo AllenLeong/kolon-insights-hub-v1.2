@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<title>样例分析 1</title>
+<style>
+  body { margin:0; font-family: ui-sans-serif, system-ui, sans-serif; padding:20px; color:#111; background:#fafafa; }
+  h2 { margin:0 0 12px; font-size:16px; }
+  table { width:100%; border-collapse: collapse; font-size:13px; background:white; }
+  th, td { border:1px solid #e5e5e5; padding:6px 10px; text-align:right; }
+  th:first-child, td:first-child { text-align:left; }
+  th { background:#f3f4f6; }
+  .pos { color:#16a34a; }
+  .neg { color:#dc2626; }
+</style>
+</head>
+<body>
+  <h2>各大区销售额贡献 TOP 5（示例）</h2>
+  <table>
+    <thead><tr><th>大区</th><th>销售额(万)</th><th>占比</th><th>同比</th></tr></thead>
+    <tbody>
+      <tr><td>华东</td><td>12,450</td><td>28.4%</td><td class="pos">+12.3%</td></tr>
+      <tr><td>华北</td><td>9,820</td><td>22.4%</td><td class="pos">+8.1%</td></tr>
+      <tr><td>华南</td><td>7,150</td><td>16.3%</td><td class="neg">-2.4%</td></tr>
+      <tr><td>华西</td><td>5,640</td><td>12.9%</td><td class="pos">+5.7%</td></tr>
+      <tr><td>东北</td><td>4,210</td><td>9.6%</td><td class="pos">+3.2%</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
